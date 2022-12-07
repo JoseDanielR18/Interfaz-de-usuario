@@ -1,0 +1,105 @@
+* {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* MENU */
+
+.menu {
+  margin: auto;
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.logo {
+  margin: auto;
+}
+
+.logo img {
+  width:55px;
+}
+
+nav {
+  margin: auto;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgba(71, 5, 5, 0.699);
+  transition: all 500ms ease;
+}
+
+nav a:hover {
+  color: rgba(233, 54, 0, 0.808);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  padding: 10px;
+}
+
+
+/* BODY */
+
+#info {
+  display: flex;
+  height: 80vh;
+  margin: auto;
+  max-width: 100%;
+}
+
+.info-1 {
+  margin: auto;
+}
+
+.info-1 img {
+  width: 750px;
+}
+
+.info-2 {
+  margin-top: 20px;
+  display: flex;
+  width: 750px;
+  justify-content: space-between;
+}
+
+.info-2 p {
+  width: 355px;
+  line-height: 24px;
+}
+
+.info-2 h1 {
+  width: 270px;
+  font-size: 45px;
+  line-height: 50px;
+}
+
+.boton {
+  margin-top: 20px;
+  background-color: rgba(233, 54, 0, 0.808);
+  width: 200px;
+  color: white;
+  text-align: center;
+  padding: 13px;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+.boton:hover {
+  background-color: rgb(2, 2, 32);
+}
+
+.boton h3 {
+  font-weight: 400;
+  letter-spacing: 0.25em;
+  font-size: 16px;
+}
+
